@@ -1,0 +1,31 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.6.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Paper2 AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Paper2" Type = "IntervalList">
+                <Interval Name = "Paper2 AvailabilityIntervals" StartTime = "1 Nov 2024 04:00:00.000" StopTime = "1 Dec 2024 04:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Paper2/Satellite/JILIN_1_40961;/Application/STK/Scenario/Paper2/Facility/Beijing_Station" Type = "IntervalList">
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "28 Nov 2024 09:13:40.529" StopTime = "28 Nov 2024 09:23:17.259" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "28 Nov 2024 10:48:17.222" StopTime = "28 Nov 2024 11:00:54.892" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "28 Nov 2024 12:30:22.825" StopTime = "28 Nov 2024 12:34:50.229" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "28 Nov 2024 22:39:29.007" StopTime = "28 Nov 2024 22:51:31.350" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "29 Nov 2024 00:15:51.810" StopTime = "29 Nov 2024 00:27:44.963" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "29 Nov 2024 09:36:27.856" StopTime = "29 Nov 2024 09:47:49.246" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "29 Nov 2024 11:12:35.103" StopTime = "29 Nov 2024 11:24:32.934" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "29 Nov 2024 21:29:54.429" StopTime = "29 Nov 2024 21:33:07.177" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "29 Nov 2024 23:03:08.273" StopTime = "29 Nov 2024 23:15:36.931" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "30 Nov 2024 00:40:09.718" StopTime = "30 Nov 2024 00:50:36.952" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "30 Nov 2024 08:28:58.604" StopTime = "30 Nov 2024 08:31:30.100" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "30 Nov 2024 09:59:41.493" StopTime = "30 Nov 2024 10:12:01.778" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "30 Nov 2024 11:37:16.731" StopTime = "30 Nov 2024 11:48:10.157" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "30 Nov 2024 21:51:57.846" StopTime = "30 Nov 2024 22:00:26.488" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "30 Nov 2024 23:26:54.641" StopTime = "30 Nov 2024 23:39:32.861" />
+                <Interval Name = "Satellite-JILIN_1_40961-To-Facility-Beijing_Station AccessIntervals" StartTime = "1 Dec 2024 01:04:37.264" StopTime = "1 Dec 2024 01:12:47.203" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Paper2" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Nov 2024 04:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "1 Dec 2024 04:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

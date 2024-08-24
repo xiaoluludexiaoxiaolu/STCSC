@@ -1,0 +1,45 @@
+stk.v.11.0
+WrittenBy    STK_v11.6.0
+BEGIN Access
+    Scenario/Paper2/Satellite/JILIN_1_40961
+    Scenario/Paper2/Facility/Beijing_Station
+
+    IsComputed		 Yes
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        BEGIN Interval
+            Start		 28 Nov 2024 09:13:40.529000000
+            Stop		 28 Dec 2024 09:23:17.260000000
+        END Interval
+        IntervalState		 Explicit
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+    BEGINUserList
+        2351620.529000 2.592e+06
+    ENDUserList
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
