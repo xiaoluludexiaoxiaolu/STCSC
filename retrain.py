@@ -102,23 +102,28 @@ def main(args):
         tb_writer.add_scalar(tags[3], val_acc, epoch)
         tb_writer.add_scalar(tags[4], optimizer.param_groups[0]["lr"], epoch)
 
-        torch.save(model.state_dict(), "./train_val_weights/model-{}.pth".format(epoch))
+        torch.save(model.state_dict(), "./reweights/model-{}.pth".format(epoch))
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--num_classes', type=int, default=45)
-    parser.add_argument('--epochs', type=int, default=50)
+    parser.add_argument('--epochs', type=int, default=20)
+    # parser.add_argument('--epochs', type=int, default=200)
     parser.add_argument('--batch-size', type=int, default=64)
+    # parser.add_argument('--lr', type=float, default=0.0001)
     parser.add_argument('--lr', type=float, default=0.0001)
 
     # 数据集所在根目录
     # https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz
-    # parser.add_argument('--data-path', type=str, default="data/NWPU-RESISC45")
-    parser.add_argument('--data-path', type=str, default="data/train_val")
+    parser.add_argument('--data-path', type=str, default="train_val_data/pyramid8threshold7")
 
     # 预训练权重路径，如果不想载入就设置为空字符
-    parser.add_argument('--weights', type=str, default='swin_tiny_patch4_window7_224.pth', help='initial weights path')
+    # parser.add_argument('--weights', type=str, default='total_weight/pretrain/trainval_original-97.pth', help='initial weights path')
+    # parser.add_argument('--weights', type=str, default='total_weight/finetune/reverse/unthreshold7-model-42.pth',
+    #                     help='initial weights path')
+    parser.add_argument('--weights', type=str, default='swin_tiny_patch4_window7_224.pth',
+                        help='initial weights path')
 
     # 是否冻结权重
     parser.add_argument('--freeze-layers', type=bool, default=False)
